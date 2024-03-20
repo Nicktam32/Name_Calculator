@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name_Calculator</title>
+</head>
+<body>
+    <h3>Name_Calculator</h3>
+    <!-- Input field -->
+    <label for="nameInput">姓名:</label>
+    <input type="text" id="nameInput" name="name" required><br>
+    <label for="複姓Select">是否複姓:</label>
+    <select id="複姓Select" name="is复姓">
+        <option value="是">是</option>
+        <option value="否">否</option>
+    </select>
+    <br>
+    <button type="button" onclick="calculate()">計算</button>
+
+    <!-- Result Part -->
+    <div id="result"></div>
+
+    <script src="name_calculator.js"></script>
+    <script src="dataset.js"></script>
+</body>
+</html>
